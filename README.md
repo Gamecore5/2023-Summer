@@ -10,7 +10,7 @@
 ## 第一次考核（ *面向所有方向* ）  
 * 接触并学习Unity引擎，了解Unity常用组件和生命周期   
 * 制作一款融入自己设计的游戏 *Roll A Ball*
-* [第一次考核文档](https://github.com/Gamecore5/2023-Summer/blob/main/doc/First%20Trial/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%80%83%E6%A0%B8%E6%96%87%E6%A1%A3.md)
+* [第一次考核文档](https://github.com/Gamecore5/2023-Summer/blob/main/First%20Trial/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%80%83%E6%A0%B8%E6%96%87%E6%A1%A3.md)
 * 时间：10.3-11.4
 
 <!-- ## 第二次考核  
