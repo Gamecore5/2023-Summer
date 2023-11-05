@@ -1,35 +1,5 @@
 <!-- title: Gamecore 2023夏季考核 -->   
 # 第二次考核任务提交例子
-## C++泛型编程笔记
-* 利用模板的思想是泛型编程—即不考虑具体数据类型的编程方式，即功能相同时，不需要重复编写代码
-    ``` C++
-    //模板函数
-    template<typename T>
-    void M_add(T x1, T x2) {
-        cout << x1 << " + " << x2 << " = " << num1 + num2 << endl;
-    }
-    //模板类
-    template<typename T>
-    class M_Class {
-    public:
-        static void multi(T x1, T x2) {
-            cout << x1 << " + " << x2 << " = " << num1 * num2 << endl;
-        }
-    };
-    int main() {
-        //整型
-        int x1 = 1;
-        int x2 = 2;
-        M_add<int>(x1, x2);   //模板函数实例
-        M_Class<int>::multi(x1, x2);   //模板类实例
-        //浮点型
-        double num3 = 3.1;
-        double num4 = 4.2;
-        M_add<double>(num3, num4);    //模板函数实例
-        M_Class<double>::multi(num3, num4);  //模板类实例
-        return 0;
-    }
-    ```
 ## C#初级编程笔记
 * 利用GetComponent<>()函数可以调用其他脚本的变量和函数，或者调用Unity中组件。   
     ``` C# 
@@ -68,36 +38,6 @@
 ``` Markdown
 <!-- title: Gamecore 2022秋季考核 -->   
 # 第二次考核任务提交例子
-## C++泛型编程笔记
-* 利用模板的思想是泛型编程—即不考虑具体数据类型的编程方式，即功能相同时，不需要重复编写代码
-    ``` C++
-    //模板函数
-    template<typename T>
-    void M_add(T x1, T x2) {
-        cout << x1 << " + " << x2 << " = " << num1 + num2 << endl;
-    }
-    //模板类
-    template<typename T>
-    class M_Class {
-    public:
-        static void multi(T x1, T x2) {
-            cout << x1 << " + " << x2 << " = " << num1 * num2 << endl;
-        }
-    };
-    int main() {
-        //整型
-        int x1 = 1;
-        int x2 = 2;
-        M_add<int>(x1, x2);   //模板函数实例
-        M_Class<int>::multi(x1, x2);   //模板类实例
-        //浮点型
-        double num3 = 3.1;
-        double num4 = 4.2;
-        M_add<double>(num3, num4);    //模板函数实例
-        M_Class<double>::multi(num3, num4);  //模板类实例
-        return 0;
-    }
-    ```
 ## C#初级编程笔记
 * 利用GetComponent<>()函数可以调用其他脚本的变量和函数，或者调用Unity中组件。   
     ``` C# 
