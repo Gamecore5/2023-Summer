@@ -70,7 +70,7 @@
            private AnotherScript a; //AnotherScript为另一脚本名（仍是此对象的组件）
            void Start()
            {
-                a = GetComponent<AnotherScript>(); //调用此游戏对象的其他脚本
+               a = GetComponent<AnotherScript>(); //调用此游戏对象的其他脚本
            }
        ```
       * 若改为a = otherGameObject.GetComponent< YetAnotherScript >(); 可指定其他游戏对象中的此脚本组件。
@@ -95,8 +95,8 @@
       enum Direction {North, East, South, West}; //North为0，East为1，以此类推
         void Start () 
       {
-        Direction myDirection;
-        myDirection = Direction.North; //myDirection值为0
+          Direction myDirection;
+          myDirection = Direction.North; //myDirection值为0
       }
       ```
 ## MonoBehavior生命周期笔记
