@@ -73,7 +73,7 @@
                 a = GetComponent<AnotherScript>(); //调用此游戏对象的其他脚本
            }
        ```
-      * 若改为a = otherGameObject.GetComponent<YetAnotherScript>(); 可指定其他游戏对象中的此脚本组件。
+      * 若改为a = otherGameObject.GetComponent< YetAnotherScript >(); 可指定其他游戏对象中的此脚本组件。
 * 变量的数据类型主要分为值类型（Value）和引用类型（Reference）两大类。
    * 值类型：包含 int float double char bool 等。还包括复杂的 Structs （包含一个或多个其他变量），它们只包含某个值（影响此变量只会影响它自己）。
       * 常用的 Structs 有 Vector3 Quaternion。
