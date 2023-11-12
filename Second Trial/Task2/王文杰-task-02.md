@@ -127,7 +127,7 @@
    > 见上方MonoBehavior生命周期笔记   
 4. 你本周的基础知识学习笔记
    > 见上方笔记
-5.思考问题答案
+5. 思考问题答案
 ``` C#
     public class HpBuff : Buff //继承于Buff类 而不是默认的 MonoBehaviour 类
     {
