@@ -37,7 +37,7 @@
 * Enabled标记（组件名.enabled）用于启用/禁用组件。
    * 例如
      ``` C#
-         myLight.enabled = true
+         myLight.enabled = true;
      ```
 * gameObject.SetActive() 函数用于启用（True）/停用（False）游戏对象。
    * 当父对象停用时，子对象无论是否启用，都不会激活。
