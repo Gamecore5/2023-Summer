@@ -94,10 +94,10 @@
       ``` C#
       enum Direction {North, East, South, West}; //North为0，East为1，以此类推
         void Start () 
-    {
+      {
         Direction myDirection;
         myDirection = Direction.North; //myDirection值为0
-    }
+      }
       ```
 ## MonoBehavior生命周期笔记
 ### 生命周期相关：
